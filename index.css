@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS";
+}
+main {
+	margin: auto;
+	text-align: center;
+}
+#canvas {
+    margin: auto;
+    display: block;
+	position: relative;
+	top: -50px;
+}
+h1 {
+    text-transform: uppercase;
+	margin: auto;
+	padding: 0.5em;
+}
+h2 {
+	font-size: 1.25em;
+}
+#below-canvas {
+	position: relative;
+	top: -100px;
+}
+#done {
+    display: none;
+	color: red;
+	font-size: 1.5em;
+}
+#scores-list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 auto;
+}
